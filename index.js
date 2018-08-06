@@ -21,3 +21,11 @@ const driversByRevenue = function(drivers) {
   });
   return newDrivers
 };
+
+const driversByName = function(drivers) {
+  newDrivers = [...drivers] 
+  newDrivers.sort(function(driver1, driver2) {
+    return driver1.name.localeCompare(driver2.name)
+  });
+  return newDrivers
+};
