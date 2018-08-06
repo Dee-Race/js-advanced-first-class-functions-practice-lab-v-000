@@ -1,5 +1,5 @@
 // Code your solution in this file!
 
-function logDriverNames(arr) {
-  console.log(arr);
+function logDriverNames(driver)) {
+  console.log(driver.name);
 }
