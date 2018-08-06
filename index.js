@@ -34,5 +34,5 @@ const totalRevenue = function(drivers) {
   const initialValue = 0;
   const total = drivers.reduce(function(accumulator, currentValue) {
     return accumulator + currentValue.revenue;
-  }; initialValue);
+  } initialValue);
 }
